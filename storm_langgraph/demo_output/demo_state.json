@@ -1,0 +1,1043 @@
+{
+  "topic": "STORM-style agentic long-form RAG",
+  "ground_truth_url": "",
+  "remove_duplicate": true,
+  "personas": [
+    "Basic fact writer: Focus on broad and foundational coverage.",
+    "Background analyst: Focus on the basic facts of STORM-style agentic long-form RAG.",
+    "Timeline analyst: Focus on key milestones and evolution of STORM-style agentic long-form RAG.",
+    "Impact analyst: Focus on applications, risks, and influence of STORM-style agentic long-form RAG."
+  ],
+  "information_table": [
+    {
+      "perspective": "Basic fact writer: Focus on broad and foundational coverage.",
+      "dlg_turns": [
+        {
+          "user_utterance": "What are the core ideas behind STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the core ideas behind STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the important milestones or representative systems in STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the important milestones or representative systems in STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perspective": "Background analyst: Focus on the basic facts of STORM-style agentic long-form RAG.",
+      "dlg_turns": [
+        {
+          "user_utterance": "What are the core ideas behind STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the core ideas behind STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the important milestones or representative systems in STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the important milestones or representative systems in STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perspective": "Timeline analyst: Focus on key milestones and evolution of STORM-style agentic long-form RAG.",
+      "dlg_turns": [
+        {
+          "user_utterance": "What are the core ideas behind STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the core ideas behind STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the important milestones or representative systems in STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the important milestones or representative systems in STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perspective": "Impact analyst: Focus on applications, risks, and influence of STORM-style agentic long-form RAG.",
+      "dlg_turns": [
+        {
+          "user_utterance": "What are the core ideas behind STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the core ideas behind STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the important milestones or representative systems in STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the important milestones or representative systems in STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conversation_log": [
+    {
+      "perspective": "Basic fact writer: Focus on broad and foundational coverage.",
+      "dlg_turns": [
+        {
+          "user_utterance": "What are the core ideas behind STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the core ideas behind STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the important milestones or representative systems in STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the important milestones or representative systems in STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perspective": "Background analyst: Focus on the basic facts of STORM-style agentic long-form RAG.",
+      "dlg_turns": [
+        {
+          "user_utterance": "What are the core ideas behind STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the core ideas behind STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the important milestones or representative systems in STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the important milestones or representative systems in STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perspective": "Timeline analyst: Focus on key milestones and evolution of STORM-style agentic long-form RAG.",
+      "dlg_turns": [
+        {
+          "user_utterance": "What are the core ideas behind STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the core ideas behind STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the important milestones or representative systems in STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the important milestones or representative systems in STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "perspective": "Impact analyst: Focus on applications, risks, and influence of STORM-style agentic long-form RAG.",
+      "dlg_turns": [
+        {
+          "user_utterance": "What are the core ideas behind STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the core ideas behind STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the important milestones or representative systems in STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the important milestones or representative systems in STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "user_utterance": "What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?",
+          "agent_utterance": "For 'What are the main strengths, limits, and practical impacts of STORM-style agentic long-form RAG?', the collected evidence suggests: STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages. A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+          "search_queries": [
+            "STORM-style agentic long-form RAG overview",
+            "STORM-style agentic long-form RAG milestones",
+            "STORM-style agentic long-form RAG applications limitations"
+          ],
+          "search_results": [
+            {
+              "url": "doc://storm-overview",
+              "description": "Overview of STORM style research-and-writing pipelines.",
+              "snippets": [
+                "STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.",
+                "The research stage focuses on collecting grounded evidence before long-form generation begins."
+              ],
+              "title": "STORM Overview",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-research",
+              "description": "Multi-perspective research loop.",
+              "snippets": [
+                "A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.",
+                "Iterative retrieval and answer synthesis create a richer information table than one-shot search."
+              ],
+              "title": "Research Loop",
+              "meta": {}
+            },
+            {
+              "url": "doc://storm-writing",
+              "description": "Section-wise article generation.",
+              "snippets": [
+                "Section-specific retrieval keeps each section focused and reduces repetition in long-form writing.",
+                "A final polishing stage can add a lead section and optionally remove duplicated content."
+              ],
+              "title": "Section Writing",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outline": "# Background\n\n## Core Ideas\n\n# Research Workflow\n\n## Persona-guided Research\n\n## Evidence Collection\n\n# Applications and Limits\n\n## Strengths\n\n## Limitations",
+  "draft_outline": "# Background\n\n# Research Workflow\n\n# Applications and Limits",
+  "draft_article": "# Background\n\nThe research stage focuses on collecting grounded evidence before long-form generation begins.[1] A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.[2]\n\n## Core Ideas\n\n# Research Workflow\n\nThe research stage focuses on collecting grounded evidence before long-form generation begins.[1] A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.[2]\n\n## Persona-guided Research\n\n## Evidence Collection\n\n# Applications and Limits\n\nThe research stage focuses on collecting grounded evidence before long-form generation begins.[1] Iterative retrieval and answer synthesis create a richer information table than one-shot search.[2]\n\n## Strengths\n\n## Limitations",
+  "polished_article": "# summary\n\nSTORM-style agentic long-form RAG can be understood as a staged research-and-writing workflow that benefits from evidence gathering, outline control, and section-wise synthesis.\n\n# Background\n\nThe research stage focuses on collecting grounded evidence before long-form generation begins.[1] A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.[2]\n\n## Core Ideas\n\n# Research Workflow\n\n## Persona-guided Research\n\n## Evidence Collection\n\n# Applications and Limits\n\nThe research stage focuses on collecting grounded evidence before long-form generation begins.[1] Iterative retrieval and answer synthesis create a richer information table than one-shot search.[2]\n\n## Strengths\n\n## Limitations"
+}

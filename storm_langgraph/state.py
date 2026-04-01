@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from typing import Any, Optional, TypedDict
 
 from .types import StormArticle, StormInformationTable
@@ -19,4 +21,3 @@ class StormGraphState(TypedDict, total=False):
     draft_article: StormArticle
     polished_article: StormArticle
     artifacts_dir: Optional[str]
-

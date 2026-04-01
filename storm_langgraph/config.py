@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
@@ -20,4 +22,3 @@ class StormGraphConfig:
             "Basic fact writer: Focus on broad and foundational coverage."
         ]
     )
-

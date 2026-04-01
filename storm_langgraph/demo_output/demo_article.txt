@@ -1,0 +1,23 @@
+# summary
+
+STORM-style agentic long-form RAG can be understood as a staged research-and-writing workflow that benefits from evidence gathering, outline control, and section-wise synthesis.
+
+# Background
+
+The research stage focuses on collecting grounded evidence before long-form generation begins.[1] A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.[2]
+
+## Core Ideas
+
+# Research Workflow
+
+## Persona-guided Research
+
+## Evidence Collection
+
+# Applications and Limits
+
+The research stage focuses on collecting grounded evidence before long-form generation begins.[1] Iterative retrieval and answer synthesis create a richer information table than one-shot search.[2]
+
+## Strengths
+
+## Limitations

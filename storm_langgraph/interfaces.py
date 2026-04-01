@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from __future__ import annotations
+
 from typing import Protocol
 
 from .types import Information
@@ -37,4 +39,3 @@ class SectionWriter(Protocol):
 class ArticlePolisher(Protocol):
     def write_lead(self, topic: str, draft_article: str) -> str: ...
     def deduplicate(self, draft_article: str) -> str: ...
-
