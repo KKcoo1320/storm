@@ -10,8 +10,9 @@ def _compact_history(turns: list[DialogueTurn]) -> list[dict]:
         {
             "user": turn.user_utterance,
             "assistant": turn.agent_utterance,
+            "queries": list(turn.search_queries),
         }
-        for turn in turns[-4:]
+        for turn in turns[-8:]
     ]
 
 
@@ -52,4 +53,3 @@ def run(
     info_table = StormInformationTable(conversations=conversations)
     info_table.rebuild()
     return info_table, info_table.to_conversation_log()
-
