@@ -1,5 +1,12 @@
 # STORM 拆解与 LangGraph 迁移说明
 
+## 快速入口
+
+- 诊断报告：[DIAGNOSTIC_REPORT.md](/Users/wangbozhi/Documents/New%20project/storm_user_repo/storm_langgraph/DIAGNOSTIC_REPORT.md)
+- 流程图：[FLOWCHART.md](/Users/wangbozhi/Documents/New%20project/storm_user_repo/storm_langgraph/FLOWCHART.md)
+- 架构说明：[ARCHITECTURE.md](/Users/wangbozhi/Documents/New%20project/storm_user_repo/storm_langgraph/ARCHITECTURE.md)
+- Benchmark 说明：[BENCHMARK.md](/Users/wangbozhi/Documents/New%20project/storm_user_repo/storm_langgraph/BENCHMARK.md)
+
 这份文档的目标不是简单介绍 `stanford-oval/storm`，而是按你们已经做过的 `lightrag_core_simplified` 思路，把 STORM 拆成适合继续工程化的结构。
 
 你可以把它理解成三件事：
@@ -7,6 +14,57 @@
 1. 把 STORM 原仓库关键 `py` 文件看懂。
 2. 判断哪些文件应该原样保留思想，哪些应该抽成 `LangGraph` 节点。
 3. 说明怎样做，才能让 `LangGraph` 版跑出来的效果尽量接近原版 STORM。
+
+---
+
+## Batch 运行
+
+下面这套命令是当前 `storm-langgraph` 在本地 `FreshWiki` 数据上跑 5-topic batch 的推荐写法。
+
+### 1. 进入项目并激活环境
+
+```bash
+cd "/Users/wangbozhi/Documents/New project/storm_user_repo"
+source .venv/bin/activate
+```
+
+### 2. 配置环境变量
+
+```bash
+export OPENAI_API_KEY="YOUR_KEY"
+export OPENAI_API_BASE="YOUR_BASE_URL"
+export STORM_LANGGRAPH_MODEL="gpt-4o-mini"
+export STORM_LANGGRAPH_RETRIEVER="freshwiki_local"
+export STORM_LANGGRAPH_FRESHWIKI_DIR="/Users/wangbozhi/Documents/New project/storm_upstream_naacl/FreshWiki/txt"
+export STORM_LANGGRAPH_BATCH_INPUT="/Users/wangbozhi/Documents/New project/comparison-storm/results/freshwiki_5_topics.csv"
+```
+
+### 3. 运行 batch
+
+```bash
+PYTHONPATH="/Users/wangbozhi/Documents/New project/storm_user_repo:/Users/wangbozhi/Documents/New project/storm_upstream" \
+python -m storm_langgraph.demo.run_real_batch
+```
+
+### 4. 输出位置
+
+batch 输出默认会写到：
+
+- `/Users/wangbozhi/Documents/New project/storm_user_repo/storm_langgraph/real_output_batch`
+
+每个 topic 子目录下通常会包含：
+
+- `storm_gen_outline.txt`
+- `storm_gen_article.txt`
+- `storm_gen_article_polished.txt`
+- `conversation_log.json`
+- `state.json`
+
+### 5. 说明
+
+- 如果你已经在 `.venv` 里，就不需要再显式写 `.venv/bin/python`。
+- `PYTHONPATH` 里同时加入了 `storm_user_repo` 和 `storm_upstream`，这样本地 `storm-langgraph` 代码可以直接复用上游 `knowledge_storm` 里的依赖。
+- 当前这套命令对应的是 `freshwiki_local` 检索设置，也就是从本地 `FreshWiki/txt` 目录读取 topic 文本。
 
 ---
 
