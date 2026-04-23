@@ -87,11 +87,18 @@ def _load_topic_titles(topic_list_path: Path, current_topic: str) -> list[str]:
 
 class OpenAICompatLLM:
     def __init__(self, model: str | None = None):
-        api_key = os.environ.get("OPENAI_API_KEY")
+        api_key = (
+            os.environ.get("OPENAI_API_KEY")
+            or os.environ.get("LLM_API_KEY")
+        )
         if not api_key:
-            raise RuntimeError("OPENAI_API_KEY is not set.")
-        base_url = os.environ.get("OPENAI_API_BASE") or os.environ.get("AZURE_API_BASE")
-        self.model = model or os.environ.get("STORM_LANGGRAPH_MODEL", "gpt-4o-mini")
+            raise RuntimeError("OPENAI_API_KEY or LLM_API_KEY is not set.")
+        base_url = (
+            os.environ.get("OPENAI_API_BASE")
+            or os.environ.get("LLM_BASE_URL")
+            or os.environ.get("AZURE_API_BASE")
+        )
+        self.model = model or os.environ.get("STORM_LANGGRAPH_MODEL") or os.environ.get("DEFAULT_LLM", "gpt-4o-mini")
         self.client = OpenAI(api_key=api_key, base_url=base_url or None)
 
     def complete(
@@ -342,22 +349,38 @@ class YouRetriever:
 
 class DuckDuckGoRetriever:
     def __init__(self, k: int = 3):
-        from knowledge_storm.rm import DuckDuckGoSearchRM
+        from ddgs import DDGS
 
-        self.rm = DuckDuckGoSearchRM(k=k, safe_search="On", region="us-en")
+        self.ddgs = DDGS()
+        self.k = k
 
     def retrieve(self, queries: list[str], exclude_urls: list[str] | None = None) -> list[Information]:
-        results = self.rm.forward(queries, exclude_urls=exclude_urls or [])
-        return [
-            Information(
-                url=item["url"],
-                title=item.get("title", ""),
-                description=item.get("description", ""),
-                snippets=list(item.get("snippets", [])),
-                meta={},
-            )
-            for item in results
-        ]
+        exclude_urls = set(exclude_urls or [])
+        seen_urls: set[str] = set()
+        results: list[Information] = []
+
+        for query in queries:
+            try:
+                hits = self.ddgs.text(query, max_results=self.k)
+            except Exception:
+                hits = []
+            for hit in (hits or []):
+                url = hit.get("href", "")
+                if not url or url in exclude_urls or url in seen_urls:
+                    continue
+                seen_urls.add(url)
+                body = hit.get("body", "")
+                results.append(
+                    Information(
+                        url=url,
+                        title=hit.get("title", ""),
+                        description=body,
+                        snippets=[body] if body else [],
+                        meta={},
+                    )
+                )
+
+        return results[: self.k * max(1, len(queries))]
 
 
 class LocalTopicFileRetriever:

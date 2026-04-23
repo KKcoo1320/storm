@@ -4,7 +4,7 @@ STORM-style agentic long-form RAG can be understood as a staged research-and-wri
 
 # Background
 
-The research stage focuses on collecting grounded evidence before long-form generation begins.[1] A persona-guided conversation can expand topic coverage by encouraging different lines of questioning.[2]
+STORM-style systems separate research, outline generation, section writing, and polishing into distinct stages.[1] Iterative retrieval and answer synthesis create a richer information table than one-shot search.[2]
 
 ## Core Ideas
 
@@ -15,8 +15,6 @@ The research stage focuses on collecting grounded evidence before long-form gene
 ## Evidence Collection
 
 # Applications and Limits
-
-The research stage focuses on collecting grounded evidence before long-form generation begins.[1] Iterative retrieval and answer synthesis create a richer information table than one-shot search.[2]
 
 ## Strengths
 
